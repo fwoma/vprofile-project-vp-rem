@@ -12,7 +12,7 @@ pipeline {
         NEXUS_URL = "5.161.219.34:8081"
         NEXUS_REPOSITORY = "vprofile-release"
 	NEXUS_REPO_ID    = "vprofile-release"
-        NEXUS_CREDENTIAL_ID = "nexuslogin"
+        NEXUS_CREDENTIAL_ID = "nexus"
         ARTVERSION = "${env.BUILD_ID}"
     }
 	
